@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>		My Portfolio using HTML and CSS
+    </title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"/>
+</head>
+<body>
+
+<div class="main-container">
+    
+    <div>
+        <ul class="nav-bar">
+            <li><a href="#contact"><button>Contact Me</button></a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li style="float:left" ><a>Amrendra K</a></li>
+          
+        </ul>
+    </div>
+ 
+    <div class="about" id="aboutme">
+        <div class="image" >        
+            <img src="./images/AmrendraPhoto_Web.jpg" align ="left"  />
+        </div>
+
+        <div class="about-me" >
+            <h3 style="color: rgb(20, 18, 143);">About Me</h3>
+            <p  >
+                A Node js Developer, skilled in React JS, Express JS, Javascript, CSS, HTML, JAVA. Hands-on experience in implementing Web Development technologies.
+                Interested in developing softwares.Proficiency in Data Structures and Algorithms.Having decade of experience in Financial domain aiming to utilize 
+                my strong functional skillset in financial markets, products and investment along with technical skills 
+                of applications and analytical ability, a unique mix of Computer, Analytics and Markets abilities to 
+                contribute to mutual growth of the company.  
+            </p>
+            
+            <div class="social-icons">
+                <a href="https://twitter.com/amrendrak_" target="_blank" ><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/amrendraakumar/" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/amrendrakind" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="project-details" id="projects">
+        <br><br>
+
+        <h2> My Projects </h2>
+
+        <p>Below is the project-details acomplished over the time</p>
+        <br><br>
+        <div class="project-div" style="left: 100px"><b>National Farmers’ Exchange</b>
+            <p class="project-text">Farmer’s Market place, where they can sell their product for the desired price with an option for bidding as well. </p>
+            <button class="box-button">View Demo</button>
+        </div>
+
+        <div class="project-div" style="left: 375px" ><b>IMDB-clone</b> 
+            <p class="project-text">IMDb is a Web site that provides information about millions of films and television programs as well as their cast and crew.</p>            
+            <button class="box-button">View Demo</button> 
+        </div>
+        
+        <div class="project-div" style="left: 650px"><b>TRS</b>             
+            <p class="project-text">It is market listening algorithm for low frequency Algorithmic Trading Module developed in Java.</p>
+            &nbsp;
+            <button class="box-button">View Demo</button>
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <div class="diff">
+            <p class="diff-heading">Why I am different!</p>
+            <p class="diff-text">I have good problem solving and communication skills.I have done project on MERN-Stack.
+            </p>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item"><i class="material-icons">cloud</i>Quick Learner</div>
+            <div class="grid-item"><i class="material-icons">favorite</i> Problem Solving </div>
+            <div class="grid-item"><i class="material-icons">attachment</i> User Centric</div>
+            <div class="grid-item"><i class="material-icons">computer</i> Research Based</div>
+            <div class="grid-item"><i class="material-icons">traffic</i> Equipped Skills</div>
+            <div class="grid-item"><i class="material-icons">coffee</i> Innovative Thinking</div>
+        </div>
+        <h2> My Skills </h2>
+
+        <div class="my-skills">
+
+            <label class="skills-text">Javascript</label> <label class="skills-num">90%</label>
+            <br>
+            <div class="progress-bar">
+                <div class="progress-bar js"></div>
+            </div> 
+            <br>
+            <label class="skills-text">React JS</label> <label class="skills-num">80%</label>
+            <br>
+            <div class="progress-bar">
+                <div class="progress-bar react"></div>
+            </div> 
+            <br>
+            <label class="skills-text">CSS</label> <label class="skills-num">75%</label>
+            <br>
+            <div class="progress-bar">
+                <div class="progress-bar css"></div>
+            </div> 
+            <br>
+            <label class="skills-text">HTML</label> <label class="skills-num">85%</label>
+            <br>
+            <div class="progress-bar">
+                <div class="progress-bar html"></div>
+            </div> 
+
+        </div>
+    </div>
+
+    <div class="my-experience" id="experience">
+        
+        <div class="experience-title">
+            <h2>My Experience</h2>
+    </div>
+    <div class="experience-content">
+
+        <div class="childitem1"><p> <u> <b>National Farmers’ Exchange (Capstone Project) </u></b>      </p>
+        
+        <p>It is Farmer’s Market place, where they can sell their product for the desired price with an option for bidding as well. ( MVP ) 
+        Developed backend with Node.js, Express.js, and database schemas and models designed with Mongoose, authentication with JWT. 
+    Built Frontend with ReactJS, designed the components using Bootstrap. 
+            Implemented Notifications and Review features for the product.
+            </p>
+        <p><b> <u>IMDB-clone </u> </b> </p>
+        <p>Built server-side of IMDB-clone using Express Js and PostgreSQL.
+            Managed to connect Database and Express through Sequelize in which various connections were established between tables.
+            Faced some challenges to understand the workflow of PostgreSQL, but coped with it within a few days.
+            Authentication was done using JWT. Axios is used for API calls.
+            </p>
+        
+        </div>
+        <div class="childitem2"><p><b><u>Trade Recommendation System (TRS)</u></b></p>
+            <p>Designed market listening algorithm for low frequency Algorithmic Trading Module in Java.
+                It download EoD data from NSE, update it into system, build indicator data, create decision point as per strategy, build Portfolio historical PnL and recommend Trades.
+                Designed with JAVA language and Ms-Excel as database. </p>
+                <br>
+                <p><u><b>Project NOW 2.0</u></b></p>
+             <p>NOW is abbreviation of NEAT On Web. It is a trading platform owned by NSE. NOW is India's widest used Trading Platform. It directly connects to the exchange for orders and feeds. It facilitates trading in multiple segments across multiple exchanges. NOW is available in 3 versions - EXE, Web and Mobile.
+            </p>   
+        </div>
+    </div>
+    </div>
+
+    <div class="contactme" id="contact" > 
+        <h2 class="contactme-heading">Contact Me</h2>
+        <form action="">
+          <input type="text" id="fname" name="firstname" placeholder="Your name please"> <br>
+          <input type="text" id="emailid" name="emailid" placeholder="Your email please"><br>
+          <textarea placeholder="Leave Message for us" ></textarea><br>
+          <input type="submit" value="Submit" >
+        </form>
+      </div>
+</div>
+</body>
+</html>
